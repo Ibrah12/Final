@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <title>ABRAHAM ONYANDO PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Bursting Balloon Preloader -->
+  <div class="preloader">
+    <div class="balloon"></div>
+  </div>
+  <div class="contentA">
+    <div class="custom-cursor">
+      <div class="ring">
+        <div class="focus"></div>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <a href="#top-container"><img id="logoImage" src="dark-logo.png" alt="logo"></a>
+      <ul>
+        <li><a href="#top-container">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#tabs">About</a></li>
+        <li><a href="#service">Features</a></li>
+        <li><a href="#contact-me">Contact</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="designs"><img class="img" src="designs.png" alt="Image showing responsive images"></div>
+      <button class="togglemode"><input type="checkbox" id="darkmode" class="input" checked>
+        <label for="darkmode" class="label">
+        <div class="circle"></div>
+        </label></button>
+      <div class="top-container" id="top-container">
+        <h1>ABRAHAM ONYANDO</h1>
+        <h2>Forging a Nexus of Superiority and Accessibility.</h2>
+        <div class="topboxes">
+          <div class="leftbox">
+            <h3 class="title3">PRODUCTS OFFERED</h3>
+            <div class="animation1">
+              <p><span></span></p>
+              <p><span></span></p>
+              <p><span></span></p>
+              <p><span></span></p>
+            </div>
+          </div>
+          <!-- Popup -->
+          <div id="popup" class="popup">
+            <span class="close-btn" onclick="closePopup()" style="font-weight: bold; font-size: 30px;">×</span>
+
+
+            <h2>WELCOME TO MY PORTFOLIO WEBSITE!</h2>
+            <h3 class="black">You can switch between dark mode and light mode using the toggle button on the top right
+              corner.</h3>
+          </div>
+          <div class="rightbox">
+            <h3 class="title3">SERVICES OFFERED</h3>
+            <div class="animation2">
+              <p><span></span></p>
+              <p><span></span></p>
+              <p><span></span></p>
+              <p><span></span></p>
+
+            </div>
+          </div>
+          <div class="designs2"><img class="img" src="designs.png" alt="Image showing responsive images"></div>
+          <!-- -->
+        </div>
+      </div>
+
+
+      <div class="projects" id="projects">
+        <h2 class="page-subheader">PROJECTS</h2>
+        <div class="page2">
+
+          <div class="project">
+            <div class="link-div one" onclick="openLink(`https://abrahamnyakundi.kesug.com`)">
+              <div class="curtain left"></div>
+              <div class="curtain right"></div>
+            </div>
+            <label onclick="openLink(`https://abrahamnyakundi.kesug.com`)">Sample Ecommerce website</label>
+            <button class="view-button" onclick="openLink(`https://abrahamnyakundi.kesug.com`)">View</button>
+          </div>
+
+          <div class="project">
+            <div class="link-div two" onclick="openLink(`https://poetic.io`)">
+              <div class="curtain left"></div>
+              <div class="curtain right"></div>
+            </div>
+            <label onclick="openLink(`https://poetic.io`)">Poetic Marketing Website</label>
+            <button class="view-button" onclick="openLink(`https://poetic.io`)">View</button>
+          </div>
+
+          <div class="project">
+            <div class="link-div three" onclick="openLink(`https://abrahamnyakundi.kesug.com`)">
+              <div class="curtain left"></div>
+              <div class="curtain right"></div>
+            </div>
+            <label onclick="openLink(`https://abrahamnyakundi.kesug.com`)">E-learning website</label>
+            <button class="view-button" onclick="openLink(`https://abrahamnyakundi.kesug.com`)">Wait</button>
+          </div>
+
+          <div class="project">
+            <div class="link-div four" onclick="openLink(`https://armourycoachingstudio.co.uk`)">
+              <div class="curtain left"></div>
+              <div class="curtain right"></div>
+            </div>
+            <label onclick="openLink(`https://armourycoachingstudio.co.uk`)">Personal Training Website</label>
+            <button class="view-button" onclick="openLink(`https://armourycoachingstudio.co.uk`)">View</button>
+          </div>
+
+          <div class="project">
+            <div class="link-div five" onclick="openLink(`https://abrahamnyakundi.x10.mx/wp`)">
+              <div class="curtain left"></div>
+              <div class="curtain right"></div>
+            </div>
+            <label onclick="openLink(`https://abrahamnyakundi.x10.mx/wp`)">Portfolio Website 2</label>
+            <button class="view-button" onclick="openLink(`https://abrahamnyakundi.x10.mx/wp`)">View</button>
+          </div>
+
+          <div class="project">
+            <div class="link-div six" onclick="openLink(`https://eliomina.com/case-studies`)">
+              <div class="curtain left"></div>
+              <div class="curtain right"></div>
+            </div>
+            <label onclick="openLink(`https://eliomina.com/case-studies`)">Simple Personal Website</label>
+            <button class="view-button" onclick="openLink(`https://eliomina.com/case-studies`)">View</button>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="tabs" id="tabs">
+        <h2 class="page-subheader">ABOUT</h2>
+        <div class="all">
+          <div class="leftside">
+
+           <img class="profile" src="abt2.jpg" alt="Image">
+            <div class="dashboard"> </div>
+
+          </div>
+          <div class="rightside">
+            <div class="buttons">
+              <button class="live" data-id="step 1">PAGE 1</button>
+              <button data-id="step 2">PAGE 2</button>
+              <button data-id="step 3">PAGE 3</button>
+            </div>
+            <div class="contentbox">
+              <div class="content live" id="step 1">
+                <h3>Background</h3>
+                <p>I am Abraham Onyando Nyakundi, a native of Kisii, Kenya, hailing from the vibrant Nyanza province.
+                  Currently residing in Makongeni, Kiambu County, just 44km from Nairobi City, I embody the ethos that
+                  relentless dedication and unwavering commitment are the cornerstones of success. Born on December
+                  15th, 1999, I bring a unique blend of cultural richness and global perspective to my work.</p>
+              </div>
+              <div class="content" id="step 2">
+                <h3>EDUCATION</h3>
+                <p>My educational journey began in January 2003, setting the stage for a transformative path. From
+                  early childhood development to primary and secondary education, I honed my academic prowess and laid
+                  the foundation for a promising future. This journey culminated in my pursuit of higher education,
+                  culminating in a degree in Computer and Electronic Systems from Mount Kenya University, Thika, Kiambu
+                  County. Immersed in HTML, CSS, JavaScript, PHP, React, and WordPress development, I solidified my
+                  expertise in the digital realm.</p>
+              </div>
+              <div class="content" id="step 3">
+                <h3>CAREER</h3>
+                <p>The decision to pursue a career as a web developer was a natural progression, driven by an innate
+                  talent for problem-solving and an unwavering focus on task completion. While I cherish moments spent
+                  outdoors with loved ones, my true joy stems from the boundless creativity found in coding and
+                  technology. Thriving in environments that demand innovation and flexibility, I constantly push
+                  boundaries to deliver optimal results. With a global mindset and a commitment to excellence, I am
+                  poised to tackle diverse challenges and exceed client expectations worldwide.</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <button class="rdq" onclick="readmore()">
+        <div class="service" id="service">
+          <div class="title">
+            <h2 class="page-subheader">FEATURES</h2>
+          </div>
+          <div class="box">
+            <div class="card">
+              <h5>USER EXPERIENCE(UX) ⬇</h5>
+              <div class="pra">
+                <p>You get a smooth and Intuitive navigation which ensures visitors can effortlessly find the
+                  information they seek.The layout,clear call to actions and intuitive menus altogether minimize
+                  frustration and maximize engagement</p>
+                <p>I also make the website responsive and match the design with your brand.Making the website immersive
+                  and memorable.</p>
+              </div>
+            </div>
+            <div class="card">
+
+              <h5>PERFOMANCE AND SPEED ⬇</h5>
+              <div class="pra">
+                <p>Faster load times on your website will ensure seamless browsing experience.Which will save you from
+                  high bounce rates.Fast sites satisfy and engage visitors better.Such websites are much safer from
+                  hackers.</p>
+                <p>Search Engines Consider website speed as a ranking factor.Therefore,there is higher visibility and
+                  more organic traffic.</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <h5>CONTENT AND SEO ⬇</h5>
+              <div class="pra">
+                <p>Compelling content and effective SEO strategies will help you engage visitors in a more convincing
+                  manner.This builds trust and encourages conversions.Optimized keywords,metatags and links will make
+                  your site rank higher.</p>
+                <p>Well researched data,great documentation and organization will make you gain recognition and
+                  credibility.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </button>
+
+      <div class="contact-me" id="contact-me">
+        <div class="darkerhire">
+          <p>NEED AN AWESOME WEBSITE? Click the button below to visit my upwork profile and hire me.</p>
+
+          <button class="button-two" id="upworkButton">GO TO UPWORK</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Abraham Onyando</p>
+      <h2 class="requests">All requests made on this website shall be responded to within 12hrs</h2>
+      <div class="social">
+
+        <a href="https://www.facebook.com/abraham.onyando" target="_blank">
+          <span class="icon-image" style="background-image: url('facebook.jpeg')"></span>
+        </a>
+
+        <a href="tel:+254713675311" target="_blank">
+          <span class="icon-image" style="background-image: url('call.png')"></span>
+        </a>
+
+        <a href="mailto:abrahamnyakundi4@gmail.com" target="_blank">
+          <span class="icon-image" style="background-image: url('gmail.png')"></span>
+        </a>
+
+        <a href="https://wa.me/254713675311" target="_blank">
+          <span class="icon-image" style="background-image: url('whatsapp.png')"></span>
+        </a>
+
+      </div>
+      <p class="end">©CopyRight By Abraham Onyando(2024)</p>
+    </footer>
+
+
+  </div>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
