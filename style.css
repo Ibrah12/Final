@@ -1068,7 +1068,7 @@ button:nth-child(3) {
 @media screen and (max-width:500px) {
     .service :hover {
         .card {
-            height: 600px;
+            height: 800px;
         }
 
     }
